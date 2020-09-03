@@ -232,7 +232,7 @@ body {
   color: #222;
   text-decoration: none;
   white-space: nowrap;
-  transition: background-color0.3s ease,
+  transition: background-color 0.3s ease,
     color 0.3s ease,
     opacity 0.3s ease;
     
