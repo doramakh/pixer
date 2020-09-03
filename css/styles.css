@@ -223,7 +223,7 @@ body {
 }
 
 .dropdown-link{
-  display: inline-block;
+  display: block;
   padding: 8px 16px;
   color: #222;
   text-decoration: none;
