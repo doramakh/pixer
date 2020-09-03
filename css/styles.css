@@ -95,6 +95,14 @@ body {
   text-align: center;
 }
 
+/* Inner heading */
+
+.inner-heading{
+  margin: 0;
+  font-size: 20px;
+  line-height: 26px;
+}
+
 /* Order Button  */
 
 .order-btn{
@@ -120,6 +128,58 @@ body {
   color: #00BAFC;
   text-decoration-line: underline;
   margin-left: 16px;
+}
+
+/* Services illustrations */
+
+.website::before{
+  display: inline-block;
+  width: 204px;
+  height: 130px;
+  background-image: url(../img/website.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.smm::before{
+  display: inline-block;
+  width: 178px;
+  height: 128px;
+  background-image: url(../img/smm-illustration.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.graphic-design::before{
+  display: inline-block;
+  width: 180px;
+  height: 130px;
+  background-image: url(../img/design-illustration.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.crm::before{
+  display: inline-block;
+  width: 170px;
+  height: 130px;
+  background-image: url(../img/crm-illustration.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.telegram::before{
+  display: inline-block;
+  width: 224px;
+  height: 130px;
+  background-image: url(../img/bot-illustration.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
 }
 
 /* Site Header */
@@ -233,9 +293,9 @@ body {
   text-decoration: none;
   white-space: nowrap;
   transition: background-color 0.3s ease,
-    color 0.3s ease,
-    opacity 0.3s ease;
-    
+  color 0.3s ease,
+  opacity 0.3s ease;
+  
 }
 
 .dropdown-link:hover{
@@ -268,6 +328,48 @@ body {
 .site-phone:active{
   color: #fff;
   background-color: rgba(0, 185, 252, 0.6);
+}
+
+/* Services Section */
+
+.services-section{
+  padding: 56px 0;
+  background-color: #fff;
+}
+
+.services-list{
+  padding: 0;
+  margin: 0;
+  margin-top: 16px;
+  list-style-type: none;
+}
+
+.services-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  padding: 24px 0;
+}
+
+.services-link{
+  display: block;
+  color: #222;
+  text-decoration: none;
+  text-align: center;
+}
+
+.services-link h3{
+  margin: 0;
+  margin-top: 16px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.services-link span{
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
 }
 
 /* Order Form Section  */
@@ -450,54 +552,8 @@ body {
   margin-bottom: 64px;
 }
 
-.website::before{
-  display: inline-block;
-  width: 200px;
-  height: 128px;
-  background-image: url(../img/website.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  content: "";
-}
-
-.smm::before{
-  display: inline-block;
-  width: 200px;
-  height: 128px;
-  background-image: url(../img/smm-illustration.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  content: "";
-}
-
-.graphic-design::before{
-  display: inline-block;
-  width: 200px;
-  height: 128px;
-  background-image: url(../img/design-illustration.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  content: "";
-}
-
-.crm::before{
-  display: inline-block;
-  width: 200px;
-  height: 128px;
-  background-image: url(../img/crm-illustration.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  content: "";
-}
-
 .features-info-wrapper{
   width: 500px;
-}
-
-.service-features-item h3{
-  margin: 0;
-  font-size: 20px;
-  line-height: 26px;
 }
 
 .service-features-item p{
